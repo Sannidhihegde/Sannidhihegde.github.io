@@ -1,0 +1,230 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background:  linear-gradient(rgba(238,234,234,0.6),rgba(238,234,234,0.6)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQStZSZqMrwQcW8KNhSmDJZUe1jd1H0XCG9iw&usqp=CAU) repeat center center fixed;
+    background-size: cover;
+}
+
+ h1{
+    margin: 40px 50px;
+    font-family: 'Crimson Text', serif;
+    width: 30%;
+    color: rgb(34, 25, 25);
+    text-shadow: 1px 2px 3px rgb(92, 87, 87);
+    text-decoration: dashed;
+}
+header > div{
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    
+}
+
+
+.flex-con{
+    display: flex;
+    flex-wrap: wrap;
+}
+.para{
+    display: inline;
+    
+}
+.para > img{
+    float: left;
+    margin: 20px;
+}
+.para > p{
+    
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 280px 100px 100px;     
+    text-align:right;
+    color:rgb(68, 62, 60);     
+}
+
+div > h2{
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+    color:rgb(68, 62, 60);
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 15px;
+    padding: 7px;
+    border-radius: 5px;
+    word-spacing: 3px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+    color: snow;
+    text-shadow: 2px;
+    background: rgb(60, 97, 219);
+}
+
+
+
+.early > p{
+    font-weight: bold;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 60px;     
+    text-align: justify;
+    color:rgb(119, 72, 38);     
+}
+
+.early > h2{
+    color: rgb(104, 20, 20);
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    
+}
+
+.background {
+    float: right;
+    margin: 40px;
+    border: solid black;
+    padding: 10px;
+}
+
+.background > img{
+    margin: 20px 25px 10px 75px;
+}
+
+.background > h2{
+    text-align: left;
+    text-decoration: underline;
+    color: rgb(75, 55, 55);
+}
+.background > p{
+    color:rgb(68, 62, 60); 
+    
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+
+.early > p{
+    font-weight: bold;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 30px 60px 60px 60px;     
+    text-align: justify;
+    color:rgb(68, 62, 60);      
+}
+
+.early > h2{
+    color: rgb(77, 65, 65);
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    margin: 50px 10px 0px 10px;
+}
+
+.c1 > p{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 30px 60px 60px 60px; 
+    color: rgb(77, 65, 65);
+    text-align: justify;
+}
+.c2 > p{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 30px 60px 60px 60px; 
+    color: rgb(77, 65, 65);
+    text-align: justify;
+}
+.film {
+    color: rgb(77, 65, 65);
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+.film > h2{
+    text-align: left;
+}
+.awards{
+    margin: 250px 100px 100px; 
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    color: rgb(77, 65, 65);
+}
+
+#icon{
+    position: absolute;
+    
+}
+.i{
+    text-align: center;
+    margin: 10px 0px;
+    color:rgb(119, 72, 38);  
+}
+ .p{
+    font-weight: bold;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 70px 100px 100px;     
+    text-align: justify;
+    color:rgb(119, 72, 38);     
+}
+ .Prestigious{
+    font-weight: bold;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 70px 100px 100px;     
+    text-align: justify;
+    color:rgb(119, 72, 38);
+ }
+ .honorary{
+    font-weight: bold;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 70px 100px 100px;     
+    text-align: justify;
+    color:rgb(119, 72, 38);
+ }
+ .national{
+    font-weight: bold;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 70px 100px 100px;     
+    text-align: justify;
+    color:rgb(119, 72, 38);
+ }
+ div >h2{
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color: rgb(104, 20, 20);
+ }
+ div > a{
+    text-decoration: none;
+    color:rgb(119, 72, 38);  
+}
+
+ div > a:hover{
+    text-decoration: none;
+    color:rgb(212, 108, 34);  
+    background-color: thistle;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.flex-con > div > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 15px;
+    padding: 7px;
+    border-radius: 5px;
+    word-spacing: 3px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(122,53,53);
+    text-shadow: 2px;
+    background: rosybrown;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Holland</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TOM HOLLAND</h1>
+        <div> 
+            <h1>Home</h1>
+               <a href="earlylife.html" target="_blank">Life and background</a>
+         <a href="career.html" target="_blank">Career</a>
+     <a href="filmography.html" target="_blank">Filmography</a>
+     <a href="awards and nominations.html" target="_blank">Awards and Nominations</a>
+        </div>
+    </header>
+    <div class="para">
+        <img src="https://www.fcbarcelonanoticias.com/uploads/s1/12/29/47/2/tom-holland-barca.jpeg" alt="Tom" width="40%">
+        <p>Thomas Stanley Holland (born 1 June 1996) is an English actor. A graduate of the BRIT School in London, he began his acting career on stage in the title role of Billy Elliot the Musical in the West End theatre from 2008 to 2010. He then starred in the disaster film The Impossible (2012), for which he received a London Film Critics Circle Award for Young British Performer of the Year.<br><br>
+
+            Holland achieved international fame for portraying Spider-Man in the Marvel Cinematic Universe superhero films Captain America: Civil War (2016), Spider-Man: Homecoming (2017), Avengers: Infinity War (2018), Avengers: Endgame (2019), Spider-Man: Far From Home (2019) and the upcoming Spider-Man: No Way Home (2021). In 2017, 20-year-old Holland won the BAFTA Rising Star Award, as the second-youngest recipient at the time.<br><br>
+            <b>Born:</b> 1 June 1996 (age 25 years), Kingston upon Thames, United Kingdom<br>
+<b>Height:</b>1.73 m<br>
+<b>Upcoming movies:</b>Spider-Man: No Way Home, Uncharted<br>
+<b>Siblings:</b> Harry Holland, Paddy Holland, Sam Holland<br>
+<b>Parents:</b> Dominic Holland, Nikki Holland<br>
+            
+        </p>
+    </div>
+    <div class="i" >Click to play an audio on one of his famous performance - Umbrella(Rihanna) <br><img src="play1.jpg" id="icon" width="60px"></div>
+    <audio id="mysong">
+        <source src="Spiderman.mpeg" type="audio/mpeg">
+    </audio>
+    <script>
+        var song=document.getElementById("mysong");
+        var icon=document.getElementById("icon");
+
+        icon.onclick=function(){
+            if(song.paused){
+                song.play();
+                icon.src = "pause1.jpg";
+            }
+            else{
+                song.pause();
+                icon.src = "play1.jpg";
+            }
+        }
+    </script>
+    <audio id="mysong">
+        <source src="Spiderman.mpeg" type="audio/mpeg">
+    </audio>
+    <script>
+        var song=document.getElementById("mysong");
+        var icon=document.getElementById("icon");
+
+        icon.onclick=function(){
+            if(song.paused){
+                song.play();
+                icon.src = "pause1.jpg";
+            }
+            else{
+                song.pause();
+                icon.src = "play1.jpg";
+            }
+        }
+    </script>
+    
+</body>
+</html>
